@@ -1,0 +1,11 @@
+.bgImg {
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  z-index: 2;
+}
+.celImg {
+  position: absolute;
+  right: 0%;
+  z-index: 3;
+}

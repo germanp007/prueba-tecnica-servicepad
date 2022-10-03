@@ -1,0 +1,45 @@
+.request-button {
+  width: 165px;
+  height: 45px;
+  background: linear-gradient(90deg, #31cf70 4.85%, #2cb9cb 100%);
+  border-radius: 89px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 7px;
+  cursor: pointer;
+  transition: 2s;
+}
+.request-button:hover {
+  background: linear-gradient(90deg, #84e1a7 4.85%, #81d6db 100%);
+}
+
+.request-button-navbar {
+  position: absolute;
+  right: 164px;
+  top: 18px;
+}
+.request-button-home {
+  position: absolute;
+  left: 200px;
+  top: 514px;
+}
+.request-button-button {
+  position: absolute;
+  right: -930px;
+  top: 55px;
+}
+.request-button-footer {
+  position: absolute;
+  right: 178px;
+  top: 47px;
+}
+.boton-form {
+  width: 576px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}

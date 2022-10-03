@@ -1,0 +1,39 @@
+/* ===================================BODY======================================== */
+.middle-section {
+  background: #f4f5f7;
+  width: 100vw;
+  height: 100vh;
+}
+.middle-container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 220px;
+}
+.middle-section-title {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+  color: #2d314e;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.middle-section-paragraph {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #959499;
+  width: 594px;
+}
+.middle-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}

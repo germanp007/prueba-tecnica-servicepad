@@ -1,0 +1,80 @@
+/* ===================================FOOTER======================================= */
+.footer {
+  position: absolute;
+  bottom: -728%;
+  width: 100vw;
+  height: 190px;
+  background: #2d314e;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-addArticles {
+  position: absolute;
+  bottom: -730%;
+}
+
+table {
+  height: 70%;
+  width: 100%;
+  color: #fafafa;
+  margin: auto;
+}
+tbody a {
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  transition: 1s;
+}
+tbody a:hover {
+  color: #77bda3;
+}
+.footer-paragraph {
+  position: absolute;
+  bottom: 52px;
+  right: 153px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.media-container svg {
+  height: 20px;
+  width: 20px;
+  fill: #fafafa;
+  transition: 1s;
+  cursor: pointer;
+}
+.media-container svg:hover {
+  fill: #77bda3;
+}
+.logo-media-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container {
+  position: absolute;
+  left: 165px;
+  top: 48px;
+}
+.media-container {
+  position: absolute;
+  left: 160px;
+  bottom: 40px;
+}
+svg {
+  margin: 6px;
+}

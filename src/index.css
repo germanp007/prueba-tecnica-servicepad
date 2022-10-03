@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Public Sans", sans-serif;
+  box-sizing: border-box;
+}
+/* ===================================HEADER======================================== */
+.home-section {
+  /* position: relative; */
+  background: #fafafa;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* ===================================BOTTOM======================================== */
+.buttom-section {
+  position: relative;
+  background: #fafafa;
+  width: 100vw;
+  height: 4750px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.totop-btn {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 100;
+}
